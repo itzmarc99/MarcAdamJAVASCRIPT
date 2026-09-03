@@ -1,6 +1,6 @@
-Enlace a GitHub: "https://github.com/itzmarc99/MarcAdamHTML"
+Enlace a GitHub: "https://github.com/itzmarc99/MarcAdamJAVASCRIPT"
 
-Enlace a Pages: "https://itzmarc99.github.io/MarcAdamHTML"
+Enlace a Pages: "https://itzmarc99.github.io/MarcAdamJAVASCRIPT"
 
 El codigo HTML ha sido validado
 
