@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "MARCWEB estrena nueva web",
+        "texto": "Hemos renovado nuestra página con JavaScript."
+    },
+    {
+        "titulo": "Nueva galería de proyectos",
+        "texto": "Hemos implementado una galería de proyectos."
+    },
+    {
+        "titulo": "Nuevo formulario de contacto",
+        "texto": "Hemos implementado un nuevo formulario de contacto para facilitar la comunicación con nuestros clientes."
+    }
+]

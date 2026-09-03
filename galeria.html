@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCWEB - Galeria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header>
+        <nav class="menu">
+            <a href="index.html" class="logo">
+                MARC<span>WEB</span>
+            </a>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html" class="activo">Galeria</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- CABECERA -->
+        <section class="cabecera">
+            <p class="destacado">NUESTROS TRABAJOS</p>
+            <h1>Galeria de Proyectos</h1>
+            <p> Algunos de los proyectos realizados por MARCWEB.</p>
+        </section>
+
+        <!-- GALERÍA -->
+        <section class="galeria">
+    <h2>Proyectos realizados</h2>
+
+    <div class="filtros">
+        <button onclick="mostrarGaleria('todos')">Todos</button>
+        <button onclick="mostrarGaleria('hosteleria')">Hostelería</button>
+        <button onclick="mostrarGaleria('empresa')">Empresa</button>
+        <button onclick="mostrarGaleria('blog')">Blog</button>
+        <button onclick="mostrarGaleria('portfolio')">Portfolio</button>
+    </div>
+
+    <div id="galeria"></div>
+</section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="pie">
+
+            <div>
+                <a href="index.html" class="logo">
+                    MARC<span>WEB</span>
+                </a>
+                <p>Diseño y desarrollo de páginas web.</p>
+            </div>
+
+            <div>
+                <h2>Contacto</h2>
+                <p>Calle Historiador Diago, 17</p>
+                <p>46007 Valencia, España</p>
+                <p>+34 123 456 789</p>
+                <p>marcweb@gmail.com</p>
+            </div>
+
+            <div>
+                <h2>Redes sociales</h2>
+
+                <div class="redes">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="imagenes/logos/instagram.webp" alt="Instagram">
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="imagenes/logos/facebook.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://x.com/" target="_blank">
+                        <img src="imagenes/logos/twitter.webp" alt="X">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="final">
+            <p>© 2026 MARCWEB. Todos los derechos reservados.</p>
+            <p><a href="#">Aviso legal</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCWEB - Presupuesto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Menú -->
+
+    <header>
+
+        <nav class="menu">
+
+            <a href="index.html" class="logo">
+                MARC<span>WEB</span>
+            </a>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+
+                <li>
+                    <a href="presupuesto.html" class="activo">
+                        Presupuesto
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="cabecera">
+
+            <p class="destacado">
+                EMPECEMOS
+            </p>
+
+            <h1>
+                Solicita presupuesto
+            </h1>
+
+            <p>
+                Cuéntanos qué necesitas y te contactaremos lo antes posible.
+            </p>
+
+        </section>
+
+        <!-- Formulario -->
+
+        <section class="formulario">
+
+    <h2>Solicita tu presupuesto</h2>
+
+    <form action="#" method="post">
+
+        <!-- DATOS DE CONTACTO -->
+
+        <h3>Datos de contacto</h3>
+
+       <div>
+    <label for="nombre">Nombre *</label>
+    <input type="text" id="nombre" name="nombre" required>
+</div>
+
+<div>
+    <label for="apellidos">Apellidos *</label>
+    <input type="text" id="apellidos" name="apellidos" required>
+</div>
+
+<div>
+    <label for="telefono">Teléfono *</label>
+    <input type="tel" id="telefono" name="telefono" required>
+</div>
+
+<div>
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+</div>
+
+
+        <!-- PRESUPUESTO -->
+
+        <h3>Presupuesto</h3>
+
+        <div>
+            <label for="producto">Producto *</label>
+
+            <select id="producto" name="producto" required>
+
+                <option value="">
+                    ¿Que tipo de Web quieres?
+                </option>
+
+                <option value="500">
+                    Web básica - 500 €
+                </option>
+
+                <option value="900">
+                    Web empresarial - 900 €
+                </option>
+
+                <option value="1300">
+                    Tienda online - 1300 €
+                </option>
+
+            </select>
+        </div>
+
+
+        <div>
+            <label for="plazo">Plazo (meses) *</label>
+
+            <input type="number"
+                   id="plazo"
+                   name="plazo"
+                   min="1"
+                   required>
+        </div>
+
+
+        <div>
+            <label>Extras</label>
+
+            <label>
+                <input type="checkbox"
+                       name="extras"
+                       value="150">
+                Diseño personalizado (+150 €)
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="extras"
+                       value="100">
+                SEO (+100 €)
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="extras"
+                       value="80">
+                Mantenimiento (mensual) (+80 €)
+            </label>
+        </div>
+
+
+        <div>
+            <label for="total">Presupuesto final</label>
+
+            <input type="text"
+                   id="total"
+                   name="total"
+                   value="0 €"
+                   readonly>
+        </div>
+
+
+        <!-- CONDICIONES Y ENVÍO -->
+
+        <h3>Condiciones y envío</h3>
+
+        <div class="privacidad">
+
+            <input type="checkbox"
+                   id="privacidad"
+                   name="privacidad"
+                   required>
+
+            <label for="privacidad">
+                Acepto la
+                <a href="#">Política de privacidad</a>
+            </label>
+
+        </div>
+
+
+        <button type="submit" class="boton">
+            Enviar solicitud
+        </button>
+
+        <button type="reset" class="boton">
+            Restablecer
+        </button>
+
+    </form>
+
+</section>
+
+    </main>
+
+    <!-- Pie -->
+
+    <footer>
+
+        <div class="pie">
+
+            <div>
+
+                <a href="index.html" class="logo">
+                    MARC<span>WEB</span>
+                </a>
+
+                <p>
+                    Diseño y desarrollo de páginas web.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h2>Contacto</h2>
+
+                <p>Calle Historiador Diago, 17</p>
+                <p>46007 Valencia, España</p>
+                <p>+34 123 456 789</p>
+                <p>marcweb@gmail.com</p>
+
+            </div>
+
+            <div>
+
+                <h2>Redes sociales</h2>
+
+                <div class="redes">
+
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="imagenes/logos/instagram.webp" alt="Instagram">
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="imagenes/logos/facebook.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://x.com/" target="_blank">
+                        <img src="imagenes/logos/twitter.webp" alt="X">
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="final">
+
+            <p>
+                © 2026 MARCWEB. Todos los derechos reservados.
+            </p>
+
+            <p>
+                <a href="#">Aviso legal</a>
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
